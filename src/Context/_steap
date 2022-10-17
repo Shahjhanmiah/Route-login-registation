@@ -1,0 +1,16 @@
+/*
+....................................
+ ## Basic Context api setup
+ ................................
+1. context api : share auth state with other components(across the application)
+2. create an userContext 
+3. contexProvider width passed children
+4. set the UserContext in the index.js
+5.  to consume the context:export the authContext from UserContext
+6.  Now at  header or Home() or anywhere else use :useContext hook to  get the info in the  context
+*/
+/*
+1. Auth Integration 
+1. use getAuth by passing the app form firebase config
+2. create a function namde createUser to return createUserWithEmailandpasword  
+*/
